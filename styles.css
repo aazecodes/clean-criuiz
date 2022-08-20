@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+}
+.container {
+  width: 885px;
+  margin: 5px auto;
+  box-shadow: 0px 0px 4px #aaa;
+}
+.section-one {
+  padding: 33px 66.6px 51px 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+}
+
+.navigate {
+  display: flex;
+}
+
+.navigators {
+  display: flex;
+  list-style-type: none;
+}
+
+.loginbtn {
+  display: inline-block;
+  margin-left: 10px;
+  background: #fffefe;
+  border: 1px solid #f36b7f;
+  border-radius: 20px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f36b7f;
+  width: 102px;
+  height: 33px;
+  margin: 5px 0;
+}
+.navigators li {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.b-logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #f36b7f;
+}
+
+.landing-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.landing-action h1 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #395671;
+  width: 290px;
+}
+.landing-action .firstp {
+  font-weight: 300;
+  font-size: 14px;
+  color: #000000;
+  width: 224px;
+  line-height: 17px;
+  padding: 10px 0;
+}
+
+.landing-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #f36b7f;
+  border: 1px solid #f36b7f;
+  border-radius: 30px;
+  margin-top: 30px;
+  padding: 15px 33px;
+}
+
+.landing-image {
+  width: 476px;
+  height: 271px;
+}
+
+.illustration {
+  width: 476px;
+  height: 271px;
+  object-fit: fill;
+}
+
+.logo-group {
+  margin-top: 51px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.logos {
+  width: 102px;
+  height: 45px;
+}
+.logo-img {
+  width: 102px;
+  height: 45px;
+  object-fit: fill;
+  opacity: 0.7;
+}
+
+/* li {
+  float: left;
+  margin: 15px;
+  width: 64px;
+  height: 23px;
+  left: 362px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: rgba(0, 0, 0, 0.2);
+} */
+/* .b-logo {
+  width: 167px;
+  height: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f36b7f;
+}
+.loginbtn {
+  background: #fffefe;
+  border: 1px solid #f36b7f;
+  border-radius: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #f36b7f;
+}
+.illustration {
+  position: absolute;
+  width: 475.95px;
+  height: 271px;
+  left: 342.46px;
+  top: 157px;
+}
+h1 {
+  position: absolute;
+  width: 290px;
+  height: 79px;
+  left: 100px;
+  top: 157px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #395671;
+}
+.firstp {
+  position: absolute;
+  width: 224px;
+  height: 39px;
+  left: 99px;
+  top: 253px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.button {
+  position: absolute;
+  width: 146px;
+  height: 49px;
+  left: 99px;
+  top: 309px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background-color: #f36b7f;
+  border: 1px solid #f36b7f;
+  border-radius: 30px;
+  margin-top: 30px;
+}
+.logos {
+  float: left;
+  padding: 15px;
+  width: 97px;
+  height: 29px;
+  position: relative;
+  margin: auto;
+}
+.pinksection {
+  position: absolute;
+  width: 885px;
+  height: 423px;
+  left: 0px;
+  top: 583px;
+  background: #f36b7f;
+}
+.phone {
+  box-sizing: border-box;
+  position: absolute;
+  width: 222px;
+  height: 356px;
+  left: 552px;
+  top: 649px;
+  border: 9.88922px solid rgba(243, 107, 127, 0.5);
+  border-radius: 20px;
+}
+.services {
+  background: #f5f5f5;
+}
+h3 {
+  position: absolute;
+  width: 287px;
+  height: 29px;
+  left: 274px;
+  top: 1065px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.box {
+  position: absolute;
+  width: 236px;
+  height: 274px;
+  left: 580px;
+  top: 1132px;
+  margin: auto;
+} */
